@@ -50,7 +50,7 @@ hold off;
 
 %% Bandpower: the average power of a signal in a specific frequency range
 
-% Loop through all data stored in FFTResults
+% Loop through all data stored in FFT
 for ii = 1:size(FFT,2)
 
     % Loop through all electrodes
